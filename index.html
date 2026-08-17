@@ -1,265 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Malik Dubai</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CHIRU ANAND Katte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1335178914613776');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1335178914613776&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 
-<!-- META PIXEL -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
 
-fbq('init','1153714410071909');
-fbq('track','PageView');
-</script>
+        body {
+            background-color: #060b13;
+            background-image: radial-gradient(circle at 50% 20%, #111a2e 0%, #060b13 85%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px 10px;
+        }
 
-<style>
+        /* Main Card Container */
+        .landing-card {
+            background: linear-gradient(180deg, #131c2e 0%, #0d1524 100%);
+            width: 100%;
+            max-width: 450px;
+            border-radius: 24px;
+            border: 1px solid rgba(0, 230, 91, 0.2);
+            padding: 35px 24px;
+            text-align: center;
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 230, 91, 0.08);
+        }
 
-*{
-box-sizing:border-box;
-margin:0;
-padding:0;
-}
+        /* Logo Styling */
+        .logo-container {
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            background: #facc15;
+            padding: 4px;
+            box-shadow: 0 0 20px rgba(250, 204, 21, 0.3);
+        }
 
-body{
-font-family:Arial;
-background:#0b0f19;
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-}
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
 
-/* MAIN CARD */
+        /* Headings */
+        .brand-name {
+            color: #facc15;
+            font-size: 20px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
 
-.container{
-width:380px;
-background:#111827;
-border-radius:25px;
-overflow:hidden;
-box-shadow:0 10px 40px rgba(0,0,0,0.6);
-}
+        .segments {
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
 
-/* HEADER */
+        .tagline {
+            color: #94a3b8;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
 
-.header{
-background:linear-gradient(135deg,#6a5cff,#ff3cac);
-padding:30px;
-text-align:center;
-}
+        /* Blinking & Glowing Single Telegram Button */
+        .btn-telegram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: #00E65B; 
+            color: #000000;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 800; 
+            padding: 16px 20px;
+            border-radius: 14px;
+            margin: 20px 0;
+            box-shadow: 0px 6px 25px rgba(0, 230, 91, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            animation: pulse-glow 1.5s infinite ease-in-out;
+            cursor: pointer;
+        }
 
-.profile{
-width:110px;
-height:110px;
-border-radius:20px;
-object-fit:cover;
-animation:float 3s ease-in-out infinite;
-}
+        @keyframes pulse-glow {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 15px rgba(0, 230, 91, 0.4);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.03);
+                box-shadow: 0 0 30px rgba(0, 230, 91, 0.85);
+                opacity: 0.95;
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 15px rgba(0, 230, 91, 0.4);
+                opacity: 1;
+            }
+        }
 
-@keyframes float{
-0%{transform:translateY(0px);}
-50%{transform:translateY(-8px);}
-100%{transform:translateY(0px);}
-}
+        /* Proof/Trust Box */
+        .trust-box {
+            background-color: rgba(30, 41, 59, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 12px;
+            margin: 15px 0 25px 0;
+        }
 
-.name{
-font-size:28px;
-font-weight:bold;
-margin-top:15px;
-}
+        .trust-item {
+            color: #e2e8f0;
+            font-size: 14px;
+            font-weight: 500;
+            margin: 4px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+        }
 
-/* BADGES */
+        /* Features List */
+        .features-list {
+            text-align: left;
+            max-width: 320px;
+            margin: 0 auto 25px auto;
+        }
 
-.badges{
-margin-top:12px;
-}
+        .feature-item {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-.badge{
-display:inline-block;
-padding:6px 14px;
-border-radius:20px;
-font-size:13px;
-margin:5px;
-}
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
 
-.premium{
-background:#8b5cf6;
-}
+        /* Subtext & Urgency */
+        .urgency-text {
+            color: #facc15;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+        }
 
-.live{
-background:#22c55e;
-}
+        .community-text {
+            color: #94a3b8;
+            font-size: 12px;
+            font-weight: 500;
+            margin: 12px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+        }
 
-/* MEMBERS */
+        .disclaimer {
+            color: #64748b;
+            font-size: 11px;
+            margin-top: 15px;
+            line-height: 1.4;
+        }
 
-.members{
-margin-top:10px;
-font-size:15px;
-}
+        /* Footer Attribution */
+        .footer-credit {
+            color: #64748b;
+            font-size: 12px;
+            margin-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 15px;
+        }
 
-/* STATS */
-
-.stats{
-display:flex;
-gap:12px;
-padding:20px;
-}
-
-.card{
-flex:1;
-padding:20px;
-border-radius:15px;
-text-align:center;
-font-weight:bold;
-}
-
-.win{
-background:linear-gradient(45deg,#22c55e,#16a34a);
-}
-
-.rating{
-background:linear-gradient(45deg,#f97316,#fb923c);
-}
-
-/* TELEGRAM BUTTON */
-
-.telegram{
-margin:0 20px 20px;
-display:flex;
-align-items:center;
-justify-content:center;
-gap:10px;
-padding:16px;
-border-radius:15px;
-background:linear-gradient(90deg,#6366f1,#a855f7);
-color:white;
-font-weight:bold;
-text-decoration:none;
-font-size:16px;
-}
-
-.telegram img{
-width:20px;
-}
-
-/* FEATURES */
-
-.features{
-display:flex;
-justify-content:space-around;
-padding:20px;
-text-align:center;
-}
-
-.feature{
-font-size:13px;
-}
-
-.icon{
-width:45px;
-height:45px;
-border-radius:12px;
-display:flex;
-align-items:center;
-justify-content:center;
-margin:auto;
-margin-bottom:6px;
-font-size:20px;
-}
-
-.v{background:#22c55e;}
-.s{background:#3b82f6;}
-.p{background:#ec4899;}
-.t{background:#f59e0b;}
-
-/* FOOTER */
-
-.footer{
-text-align:center;
-padding:15px;
-font-size:13px;
-color:#9ca3af;
-}
-
-</style>
+        .footer-credit a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .footer-credit a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
 
-<div class="container">
+    <div class="landing-card">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo">
+        </div>
 
-<div class="header">
+        <h1 class="brand-name">THE CHIRU ANAND Katte<br>𝐓𝐑𝐀𝐃𝐈𝐍𝐆 𝐀𝐂𝐀𝐃𝐄𝐌𝐘</h1>
+        <div class="segments">NIFTY • BANKNIFTY • OPTIONS</div>
+        <p class="tagline">Daily Intraday Trading Signals & Analysis</p>
 
-<img class="profile" src="logo.png">
+        <div class="trust-box">
+            <div class="trust-item">✓ Trusted by 5,000+ Traders</div>
+            <div class="trust-item">✓ Daily Consistent Setups</div>
+        </div>
 
-<div class="name">MALIK DUBAI</div>
+        <div class="features-list">
+            <div class="feature-item">✓ 5-7 High Probability Trades</div>
+            <div class="feature-item">✓ Exact Entry, SL & Target</div>
+            <div class="feature-item">✓ Beginner Friendly Guidance</div>
+            <div class="feature-item">✓ Live Market Updates</div>
+        </div>
 
-<div class="badges">
-<span class="badge premium">⭐ Premium Analyst</span>
-<span class="badge live">🔴 Live Updates</span>
-</div>
+        <!-- Single Optimized High-Converting Button -->
+        <a href="https://t.me/+AZuFrLMLYjRjODVl" class="btn-telegram" id="mainTelegramBtn" target="_blank" rel="noopener noreferrer">
+            🚀 Join Free Telegram Channel
+        </a>
 
-<div class="members">👥 100k+ Active Members</div>
+        <div class="urgency-text">⏳ Free Access Closing Soon</div>
+        <div class="community-text">📈 Limited Seats • Active Community</div>
+        <div class="disclaimer">⚠️ Market investments are subject to risk</div>
 
-</div>
+        <div class="footer-credit">
+            Powered by <a href="https://t.me/+jE7sEbzR23gwM2U1" target="_blank">kunal</a>
+        </div>
+    </div>
 
-<div class="stats">
+    <!-- Anti-Fake Click & Pixel Tracking Script -->
+    <script>
+        let isClickProcessing = false;
+        const btn = document.getElementById('mainTelegramBtn');
 
-<div class="card win">
-96%<br>WIN RATE
-</div>
+        btn.addEventListener('click', function (e) {
+            // Anti-spam / Anti-double-click prevention
+            if (isClickProcessing) {
+                e.preventDefault();
+                return false;
+            }
 
-<div class="card rating">
-4.1 ⭐<br>RATING
-</div>
+            isClickProcessing = true;
 
-</div>
+            // Track Pixel Event accurately
+            if (typeof fbq === 'function') {
+                fbq('track', 'Lead');
+            }
 
-<a class="telegram" href="https://t.me/">
-
-<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
-
-Join Telegram Channel
-
-</a>
-
-<div class="features">
-
-<div class="feature">
-<div class="icon v">✔</div>
-Verified
-</div>
-
-<div class="feature">
-<div class="icon s">🔒</div>
-Secure
-</div>
-
-<div class="feature">
-<div class="icon p">📈</div>
-Profitable
-</div>
-
-<div class="feature">
-<div class="icon t">⭐</div>
-Top Rated
-</div>
-
-</div>
-
-<div class="footer">
-© 2026 Malik Dubai - All rights reserved.
-</div>
-
-</div>
+            // Reset click lock after 2 seconds
+            setTimeout(function () {
+                isClickProcessing = false;
+            }, 2000);
+        });
+    </script>
 
 </body>
 </html>
